@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/nombreProfesional"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Dra. María Cariaga"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:fontFamily="@font/inter"
+        android:textColor="#333333"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/especialidadProfesional"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cardiología"
+        android:textSize="14sp"
+        android:fontFamily="@font/inter"
+        android:textColor="#666666"
+        app:layout_constraintTop_toBottomOf="@id/nombreProfesional"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/localidadProfesional"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mar del Plata"
+        android:textSize="14sp"
+        android:fontFamily="@font/inter"
+        android:textColor="#666666"
+        app:layout_constraintTop_toBottomOf="@id/especialidadProfesional"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
