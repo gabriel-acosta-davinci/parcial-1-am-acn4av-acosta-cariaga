@@ -12,7 +12,7 @@ Diseñar e implementar una pantalla funcional y visualmente coherente que repres
 
 ## Pantalla seleccionada
 
-<img width="1080" height="1920" alt="image" src="https://github.com/user-attachments/assets/ff74f909-5bde-4538-b365-3c1483524413" />
+<img width="216" height="384" alt="image" src="https://github.com/user-attachments/assets/ff74f909-5bde-4538-b365-3c1483524413" />
 
 Se desarrolló la **pantalla de inicio**, que incluye:
 
